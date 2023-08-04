@@ -1,0 +1,47 @@
+3. Video Conferencing Website 
+
+You can try your hands on the video conferencing website
+and application projects and help develop features like
+textual chatting, audio-video interactions, video recording, etc
+
+
+code :
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Conferencing App</title>
+</head>
+<body>
+  <header>
+    <h1>Video Conferencing App</h1>
+  </header>
+
+  <main>
+    <div id="video-container">
+      <!-- Local video display -->
+      <video id="local-video" autoplay muted></video>
+
+      <!-- Remote video display -->
+      <video id="remote-video" autoplay></video>
+    </div>
+
+    <!-- Chatting functionality -->
+    <div id="chat-container">
+      <div id="chat-messages">
+        <!-- Display chat messages here -->
+      </div>
+      <input type="text" id="chat-input" placeholder="Type your message here...">
+      <button id="send-button">Send</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 VideoConferencingApp.com</p>
+  </footer>
+
+  <!-- JavaScript code for audio-video interactions, text chat, and video recording would go here -->
+</body>
+</html>
